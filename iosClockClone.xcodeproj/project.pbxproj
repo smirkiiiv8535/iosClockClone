@@ -7,14 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170FD099250754C800BF4D9C /* customTimerBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170FD098250754C800BF4D9C /* customTimerBtn.swift */; };
+		1731570225031B6F00F8D30F /* NotificationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731570125031B6F00F8D30F /* NotificationSetting.swift */; };
+		17315706250351CC00F8D30F /* Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17315705250351CC00F8D30F /* Waves.mp3 */; };
+		17315708250351D000F8D30F /* Radar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17315707250351D000F8D30F /* Radar.mp3 */; };
+		1731570D2503599800F8D30F /* clockTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731570C2503599800F8D30F /* clockTable.swift */; };
+		1731571125035D1800F8D30F /* clockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731571025035D1800F8D30F /* clockCell.swift */; };
+		17315713250361ED00F8D30F /* alarmSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17315712250361ED00F8D30F /* alarmSetting.swift */; };
+		17315716250364DF00F8D30F /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17315715250364DF00F8D30F /* Alarm.swift */; };
+		173157182503658300F8D30F /* AlarmSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173157172503658300F8D30F /* AlarmSetting.swift */; };
+		1731571A2503758700F8D30F /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173157192503758700F8D30F /* Time.swift */; };
+		173157272503A18600F8D30F /* Iphone5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 173157232503A18600F8D30F /* Iphone5.mp3 */; };
+		173157282503A18600F8D30F /* Iphone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 173157242503A18600F8D30F /* Iphone.mp3 */; };
+		173157292503A18600F8D30F /* Iphone7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 173157252503A18600F8D30F /* Iphone7.mp3 */; };
+		1731572A2503A18600F8D30F /* IphoneX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 173157262503A18600F8D30F /* IphoneX.mp3 */; };
+		1731572D2503D18500F8D30F /* timerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731572C2503D18500F8D30F /* timerCell.swift */; };
+		1731572F2503D1D500F8D30F /* timerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1731572E2503D1D500F8D30F /* timerTable.swift */; };
+		173157312503DAE300F8D30F /* timeClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173157302503DAE300F8D30F /* timeClock.swift */; };
+		17468A3C25007A4E00220039 /* customPickDateTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17468A3B25007A4E00220039 /* customPickDateTable.swift */; };
+		17468A3E2500D9AF00220039 /* timeZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17468A3D2500D9AF00220039 /* timeZoneCell.swift */; };
+		175DFAF624FB80F800451707 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DFAF524FB80F800451707 /* Color.swift */; };
+		175DFAFA24FB868500451707 /* stopWatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DFAF924FB868500451707 /* stopWatchVC.swift */; };
+		175DFAFC24FB975500451707 /* customSwBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DFAFB24FB975500451707 /* customSwBtn.swift */; };
+		175DFAFE24FBE0BE00451707 /* stopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DFAFD24FBE0BE00451707 /* stopWatch.swift */; };
+		175DFB0024FBF15200451707 /* stopWatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175DFAFF24FBF15200451707 /* stopWatchCell.swift */; };
 		17BB5A7B24F9EC2700F56CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB5A7A24F9EC2700F56CC6 /* AppDelegate.swift */; };
 		17BB5A7D24F9EC2700F56CC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB5A7C24F9EC2700F56CC6 /* SceneDelegate.swift */; };
-		17BB5A7F24F9EC2700F56CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB5A7E24F9EC2700F56CC6 /* ViewController.swift */; };
 		17BB5A8224F9EC2700F56CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BB5A8024F9EC2700F56CC6 /* Main.storyboard */; };
 		17BB5A8424F9EC2800F56CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BB5A8324F9EC2800F56CC6 /* Assets.xcassets */; };
 		17BB5A8724F9EC2800F56CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BB5A8524F9EC2800F56CC6 /* LaunchScreen.storyboard */; };
 		17BB5A9224F9EC2800F56CC6 /* iosClockCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB5A9124F9EC2800F56CC6 /* iosClockCloneTests.swift */; };
 		17BB5A9D24F9EC2800F56CC6 /* iosClockCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB5A9C24F9EC2800F56CC6 /* iosClockCloneUITests.swift */; };
+		17BB5AAB24F9F5EB00F56CC6 /* customTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BB5AAA24F9F5EB00F56CC6 /* customTabBar.swift */; };
+		17D8921725048787009A7476 /* showWorldTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8921625048787009A7476 /* showWorldTime.swift */; };
+		17D8921B250488C4009A7476 /* showTimeZoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D8921A250488C4009A7476 /* showTimeZoneCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170FD098250754C800BF4D9C /* customTimerBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTimerBtn.swift; sourceTree = "<group>"; };
+		1731570125031B6F00F8D30F /* NotificationSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSetting.swift; sourceTree = "<group>"; };
+		17315705250351CC00F8D30F /* Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Waves.mp3; sourceTree = "<group>"; };
+		17315707250351D000F8D30F /* Radar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Radar.mp3; sourceTree = "<group>"; };
+		1731570C2503599800F8D30F /* clockTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockTable.swift; sourceTree = "<group>"; };
+		1731571025035D1800F8D30F /* clockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockCell.swift; sourceTree = "<group>"; };
+		17315712250361ED00F8D30F /* alarmSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmSetting.swift; sourceTree = "<group>"; };
+		17315715250364DF00F8D30F /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		173157172503658300F8D30F /* AlarmSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSetting.swift; sourceTree = "<group>"; };
+		173157192503758700F8D30F /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		173157232503A18600F8D30F /* Iphone5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Iphone5.mp3; sourceTree = "<group>"; };
+		173157242503A18600F8D30F /* Iphone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Iphone.mp3; sourceTree = "<group>"; };
+		173157252503A18600F8D30F /* Iphone7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Iphone7.mp3; sourceTree = "<group>"; };
+		173157262503A18600F8D30F /* IphoneX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IphoneX.mp3; sourceTree = "<group>"; };
+		1731572C2503D18500F8D30F /* timerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerCell.swift; sourceTree = "<group>"; };
+		1731572E2503D1D500F8D30F /* timerTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerTable.swift; sourceTree = "<group>"; };
+		173157302503DAE300F8D30F /* timeClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeClock.swift; sourceTree = "<group>"; };
+		17468A3B25007A4E00220039 /* customPickDateTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPickDateTable.swift; sourceTree = "<group>"; };
+		17468A3D2500D9AF00220039 /* timeZoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeZoneCell.swift; sourceTree = "<group>"; };
+		175DFAF524FB80F800451707 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		175DFAF924FB868500451707 /* stopWatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopWatchVC.swift; sourceTree = "<group>"; };
+		175DFAFB24FB975500451707 /* customSwBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSwBtn.swift; sourceTree = "<group>"; };
+		175DFAFD24FBE0BE00451707 /* stopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopWatch.swift; sourceTree = "<group>"; };
+		175DFAFF24FBF15200451707 /* stopWatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stopWatchCell.swift; sourceTree = "<group>"; };
 		17BB5A7724F9EC2700F56CC6 /* iosClockClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosClockClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BB5A7A24F9EC2700F56CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17BB5A7C24F9EC2700F56CC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17BB5A7E24F9EC2700F56CC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		17BB5A8124F9EC2700F56CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BB5A8324F9EC2800F56CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17BB5A8624F9EC2800F56CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +98,9 @@
 		17BB5A9824F9EC2800F56CC6 /* iosClockCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosClockCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BB5A9C24F9EC2800F56CC6 /* iosClockCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosClockCloneUITests.swift; sourceTree = "<group>"; };
 		17BB5A9E24F9EC2800F56CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BB5AAA24F9F5EB00F56CC6 /* customTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBar.swift; sourceTree = "<group>"; };
+		17D8921625048787009A7476 /* showWorldTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showWorldTime.swift; sourceTree = "<group>"; };
+		17D8921A250488C4009A7476 /* showTimeZoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showTimeZoneCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +128,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17315704250351A000F8D30F /* Ringtones */ = {
+			isa = PBXGroup;
+			children = (
+				17315707250351D000F8D30F /* Radar.mp3 */,
+				17315705250351CC00F8D30F /* Waves.mp3 */,
+				173157242503A18600F8D30F /* Iphone.mp3 */,
+				173157232503A18600F8D30F /* Iphone5.mp3 */,
+				173157252503A18600F8D30F /* Iphone7.mp3 */,
+				173157262503A18600F8D30F /* IphoneX.mp3 */,
+			);
+			path = Ringtones;
+			sourceTree = "<group>";
+		};
+		1731570B2503596800F8D30F /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				1731570C2503599800F8D30F /* clockTable.swift */,
+				17315712250361ED00F8D30F /* alarmSetting.swift */,
+				1731571025035D1800F8D30F /* clockCell.swift */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		17315714250364AC00F8D30F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17315715250364DF00F8D30F /* Alarm.swift */,
+				173157192503758700F8D30F /* Time.swift */,
+				173157172503658300F8D30F /* AlarmSetting.swift */,
+				1731570125031B6F00F8D30F /* NotificationSetting.swift */,
+				17315704250351A000F8D30F /* Ringtones */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1731572B2503CD4500F8D30F /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				1731572C2503D18500F8D30F /* timerCell.swift */,
+				1731572E2503D1D500F8D30F /* timerTable.swift */,
+				173157302503DAE300F8D30F /* timeClock.swift */,
+				170FD098250754C800BF4D9C /* customTimerBtn.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		1741308725021A9800F88A65 /* CustomColor */ = {
+			isa = PBXGroup;
+			children = (
+				17BB5AAA24F9F5EB00F56CC6 /* customTabBar.swift */,
+				175DFAF524FB80F800451707 /* Color.swift */,
+			);
+			path = CustomColor;
+			sourceTree = "<group>";
+		};
+		1741308825021AB700F88A65 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				175DFAF924FB868500451707 /* stopWatchVC.swift */,
+				175DFAFF24FBF15200451707 /* stopWatchCell.swift */,
+				175DFAFD24FBE0BE00451707 /* stopWatch.swift */,
+				175DFAFB24FB975500451707 /* customSwBtn.swift */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
+		1741308925021ACC00F88A65 /* WorldTIme */ = {
+			isa = PBXGroup;
+			children = (
+				17D8921625048787009A7476 /* showWorldTime.swift */,
+				17468A3B25007A4E00220039 /* customPickDateTable.swift */,
+				17D8921A250488C4009A7476 /* showTimeZoneCell.swift */,
+				17468A3D2500D9AF00220039 /* timeZoneCell.swift */,
+			);
+			path = WorldTIme;
+			sourceTree = "<group>";
+		};
 		17BB5A6E24F9EC2700F56CC6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +230,15 @@
 			children = (
 				17BB5A7A24F9EC2700F56CC6 /* AppDelegate.swift */,
 				17BB5A7C24F9EC2700F56CC6 /* SceneDelegate.swift */,
-				17BB5A7E24F9EC2700F56CC6 /* ViewController.swift */,
 				17BB5A8024F9EC2700F56CC6 /* Main.storyboard */,
-				17BB5A8324F9EC2800F56CC6 /* Assets.xcassets */,
+				17315714250364AC00F8D30F /* Model */,
+				1741308725021A9800F88A65 /* CustomColor */,
+				1741308925021ACC00F88A65 /* WorldTIme */,
+				1731570B2503596800F8D30F /* Clock */,
+				1741308825021AB700F88A65 /* StopWatch */,
+				1731572B2503CD4500F8D30F /* Timer */,
 				17BB5A8524F9EC2800F56CC6 /* LaunchScreen.storyboard */,
+				17BB5A8324F9EC2800F56CC6 /* Assets.xcassets */,
 				17BB5A8824F9EC2800F56CC6 /* Info.plist */,
 			);
 			path = iosClockClone;
@@ -232,7 +366,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BB5A8724F9EC2800F56CC6 /* LaunchScreen.storyboard in Resources */,
+				1731572A2503A18600F8D30F /* IphoneX.mp3 in Resources */,
+				173157272503A18600F8D30F /* Iphone5.mp3 in Resources */,
+				17315706250351CC00F8D30F /* Waves.mp3 in Resources */,
+				173157292503A18600F8D30F /* Iphone7.mp3 in Resources */,
+				17315708250351D000F8D30F /* Radar.mp3 in Resources */,
 				17BB5A8424F9EC2800F56CC6 /* Assets.xcassets in Resources */,
+				173157282503A18600F8D30F /* Iphone.mp3 in Resources */,
 				17BB5A8224F9EC2700F56CC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +398,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17BB5A7F24F9EC2700F56CC6 /* ViewController.swift in Sources */,
+				175DFAFE24FBE0BE00451707 /* stopWatch.swift in Sources */,
+				173157182503658300F8D30F /* AlarmSetting.swift in Sources */,
+				17468A3C25007A4E00220039 /* customPickDateTable.swift in Sources */,
+				17315716250364DF00F8D30F /* Alarm.swift in Sources */,
+				17468A3E2500D9AF00220039 /* timeZoneCell.swift in Sources */,
+				1731571A2503758700F8D30F /* Time.swift in Sources */,
+				1731570D2503599800F8D30F /* clockTable.swift in Sources */,
+				175DFAFA24FB868500451707 /* stopWatchVC.swift in Sources */,
+				17BB5AAB24F9F5EB00F56CC6 /* customTabBar.swift in Sources */,
+				1731572D2503D18500F8D30F /* timerCell.swift in Sources */,
+				175DFB0024FBF15200451707 /* stopWatchCell.swift in Sources */,
+				173157312503DAE300F8D30F /* timeClock.swift in Sources */,
+				17315713250361ED00F8D30F /* alarmSetting.swift in Sources */,
 				17BB5A7B24F9EC2700F56CC6 /* AppDelegate.swift in Sources */,
+				1731570225031B6F00F8D30F /* NotificationSetting.swift in Sources */,
+				1731571125035D1800F8D30F /* clockCell.swift in Sources */,
+				17D8921725048787009A7476 /* showWorldTime.swift in Sources */,
+				170FD099250754C800BF4D9C /* customTimerBtn.swift in Sources */,
+				1731572F2503D1D500F8D30F /* timerTable.swift in Sources */,
+				175DFAFC24FB975500451707 /* customSwBtn.swift in Sources */,
+				175DFAF624FB80F800451707 /* Color.swift in Sources */,
 				17BB5A7D24F9EC2700F56CC6 /* SceneDelegate.swift in Sources */,
+				17D8921B250488C4009A7476 /* showTimeZoneCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

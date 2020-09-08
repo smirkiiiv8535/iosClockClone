@@ -6,16 +6,34 @@
 //
 
 import UIKit
+import UserNotifications
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain
 
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
+    class NotificationSetting:UIResponder,UIApplicationDelegate, UNUserNotificationCenterDelegate {
+         
+//        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+//                   //  操作該 App 或 其它 App時都能收到通知,不用到桌面
+//                    UNUserNotificationCenter.current().delegate = self
+//
+//                    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound], completionHandler: { granted, error in
+//                        if granted{
+//                            print("User Allow")
+//                        }
+//                        else if error != nil {
+//                            print("User don't allow")
+//                        }
+//                        })
+         
+//
+//            let snoozeAction = UNNotificationAction(identifier: NotificationAction.Snooze.rawValue, title: NotificationAction.Snooze.rawValue, options: [])
+//            let stopAction = UNNotificationAction(identifier: NotificationAction.Stop.rawValue, title: NotificationAction.Stop.rawValue, options: [.destructive])
+//
+//            let category = UNNotificationCategory(identifier: NotificationCategory.AlarmNotification.rawValue, actions: [snoozeAction, stopAction], intentIdentifiers: [], options: [])
+            
+//            UNUserNotificationCenter.current().setNotificationCategories([category])
+            
+//            return true
 
     // MARK: UISceneSession Lifecycle
 
@@ -24,6 +42,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
+        
+        func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+            completionHandler([.sound, .alert])
+ 
+        }
+        
+        
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
@@ -32,5 +57,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
-}
+    }
 
